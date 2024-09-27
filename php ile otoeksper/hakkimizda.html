@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakkımızda - Otoekspertiz Firması</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: linear-gradient(to right, #4d4dff, #3333ff);
+    }
+    
+    .container {
+        width: 80%;
+        background-color: #ffffff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    
+    h2 {
+        color: #4d4dff;
+        margin-bottom: 20px;
+    }
+    
+    .info-section, .contact-info, .working-hours, .certificates {
+        margin-bottom: 30px;
+        padding: 20px;
+        background-color: #f2f2f2;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .info-section h3, .contact-info h3, .working-hours h3, .certificates h3 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+    
+    .info-section p, .contact-info p, .working-hours table, .certificates ul {
+        color: #666;
+        line-height: 1.6;
+    }
+    
+    .working-hours table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+    
+    .working-hours th, .working-hours td {
+        padding: 10px;
+        border: 1px solid #ccc;
+        text-align: center;
+    }
+    
+    .certificates ul {
+        list-style-type: none;
+        padding: 0;
+        text-align: left;
+        margin-top: 10px;
+    }
+    
+    .certificates li {
+        color: #666;
+        margin-bottom: 5px;
+    }
+    
+    .contact-info .location {
+        font-size: 18px;
+        margin-top: 10px;
+        color: #333;
+    }
+    
+    .contact-info .map {
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .contact-info .map img {
+        width: 100%;
+        max-width: 300px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .satisfaction {
+        margin-top: 20px;
+    }
+    
+    .satisfaction .percentage {
+        font-size: 24px;
+        color: #4CAF50; /* Yeşil */
+    }
+    
+    .certificates .awards {
+        font-size: 24px;
+        color: #F44336; /* Kırmızı */
+    }
+    
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, #4d4dff, #3333ff);
+        }
+
+        .container {
+            width: 80%;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h2 {
+            color: #4d4dff;
+            margin-bottom: 20px;
+        }
+
+        .info-section, .contact-info, .working-hours, .certificates {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f2f2f2;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .info-section h3, .contact-info h3, .working-hours h3, .certificates h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .info-section p, .contact-info p, .working-hours table, .certificates ul {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .working-hours table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        .working-hours th, .working-hours td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        .certificates ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+            margin-top: 10px;
+        }
+
+        .certificates li {
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .contact-info .location {
+            font-size: 18px;
+            margin-top: 10px;
+            color: #333;
+        }
+
+        .contact-info .map {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .contact-info .map img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .satisfaction {
+            margin-top: 20px;
+        }
+
+        .satisfaction .percentage {
+            font-size: 24px;
+            color: #4CAF50; /* Yeşil */
+        }
+
+        .certificates .awards {
+            font-size: 24px;
+            color: #F44336; /* Kırmızı */
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Hakkımızda - Otoekspertiz Firması</h2>
+
+        <div class="info-section">
+            <h3>Konum Bilgisi</h3>
+            <p>Otoekspertiz Firması<br>Örneğin Caddesi No: 123<br>İstanbul, Türkiye</p>
+        </div>
+
+        <div class="contact-info">
+            <h3>İletişim Bilgileri</h3>
+            <p>Telefon: +90 555 555 55 55</p>
+            <p class="location">Adres: Örneğin Caddesi No: 123, İstanbul, Türkiye 📍</p>
+            <div class="map">
+                <img src="as.jpg" alt="Kuş Bakışı Harita Görüntüsü">
+            </div>
+        </div>
+
+        <div class="working-hours">
+            <h3>Çalışma Saatleri</h3>
+            <table>
+                <tr>
+                    <th>Gün</th>
+                    <th>Saatler</th>
+                </tr>
+                <tr>
+                    <td>Pazartesi - Cuma</td>
+                    <td>08:00 - 18:00</td>
+                </tr>
+                <tr>
+                    <td>Cumartesi</td>
+                    <td>09:00 - 13:00</td>
+                </tr>
+                <tr>
+                    <td>Pazar</td>
+                    <td>Kapalı</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="certificates">
+            <h3>Alınan Belgeler ve Sertifikalar</h3>
+            <ul>
+                <li>Otoekspertiz Sertifikası</li>
+                <li>ISO 9001:2015 Kalite Yönetim Sistemi Belgesi</li>
+                <li>TSE Hizmet Yeterlilik Belgesi</li>
+                <li>Yetkili Müşavirlik Belgesi</li>
+            </ul>
+            <p class="awards">🏆 En İyi Hizmet Ödülü 🏆</p>
+        </div>
+
+        <div class="satisfaction">
+            <h3>Müşteri Memnuniyeti</h3>
+            <p class="percentage"> %98 </p>
+        </div>
+    </div>
+</body>
+</html>
